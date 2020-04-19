@@ -297,13 +297,14 @@ div.padrecolonne-footer::after {
 
 .selettore {
   display: inline-block;
-  width: 150px;
+  width: 200px;
   height: 30px;
   background-color: #d3d3d3;
   color: #808080;
   font-weight: bold;
   border: none;
   border-bottom: 1px solid #808080;
+  font-size: 20px;
 }
 
 .strutturapiano-footer {
