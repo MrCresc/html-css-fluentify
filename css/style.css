@@ -1,10 +1,13 @@
+/* Reset + font generale */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", verdana;
 }
+/* Fine Reset + font generale */
 
+/* Proprietà tasto HELP */
 .help {
   position: fixed;
   bottom: 0px;
@@ -15,7 +18,9 @@
   border-top-right-radius: 5px;
   text-align: center;
 }
+/* Fine Proprietà tasto HELP */
 
+/* Proprietà generali header */
 header {
   position: relative;
   background-color: #0c325a;
@@ -25,52 +30,71 @@ header {
   background-repeat: no-repeat;
   background-position: 107% 100%;
 }
+/* Fine Proprietà generali header */
 
+/* Proprietà generali liste non ordinate */
 ul {
   list-style: none;
   font-size: 0;
 }
+/* Fine Proprietà generali liste non ordinate */
 
+/* Proprietà generali elementi anchor */
 a {
   text-decoration: none;
   color: white;
 }
+/* Fine Proprietà generali elementi anchor */
 
+/* List item nelle colonne */
 .col li {
   display: inline-block;
   margin: 40px 20px;
   text-transform: uppercase;
   font-size: 13px;
 }
+/* Fine List item nelle colonne */
 
+/* Proprietà generali del container (per sezioni meno larghe del body) */
 .container {
   width: 80%;
   margin: auto;
 }
+/* Fine Proprietà generali del container (per sezioni meno larghe del body) */
 
+/* Proprietà generali colonne */
 .col {
   float: left;
 }
+/* Fine Proprietà generali colonne */
 
+/* Clearfix Header */
 header .container div::after {
   content: "";
   clear: both;
   display: table;
-
 }
+/* Fine Clearfix Header */
 
+/* Logo */
 #logo {
   padding-top: 20px;
 }
+/* Fine Logo */
 
+/* Proprietà colonna header sinistra */
 .sinistra {
   width: 12%;
 }
+/* Fine Proprietà colonna header sinistra */
 
+/* Proprietà colonna header centrale */
 .centrale {
   width: 48%;
 }
+/* Fine Proprietà colonna header centrale */
 
+/* Proprietà colonna header destra */
 .destra {
   width: 40%;
   text-align: right;
@@ -91,7 +115,9 @@ header .container div::after {
   padding: 10px 15px;
   border-radius: 5px;
 }
+/* Fine Proprietà colonna header destra */
 
+/* Divisore grigio header-main */
 .motivational {
   position: absolute;
   top: 30%;
@@ -132,18 +158,24 @@ p.strutturapiano {
   margin-top: 15px;
   color: grey;
 }
+/* Fine Divisore grigio header-main */
 
+/* Proprietà container del main */
 .container.main {
 margin-top: 40px;
 margin-bottom: 50px;
 }
+/* Fine Proprietà container del main */
 
+/* Clearfix del contenitore (padre) delle colonne del main */
 div.padrecolonne::after {
   content: "";
   clear: both;
   display: table;
 }
+/* Fine Clearfix del contenitore (padre) delle colonne del main */
 
+/* Proprietà contenuti colonne main */
 .sottotitolo-main {
   color: #7cbb02;
   padding: 10px 0 30px 0;
@@ -159,28 +191,38 @@ div.padrecolonne::after {
   font-size: 20px;
   color: #808080;
 }
+/* Fine Proprietà contenuti colonne main */
 
+/* Proprietà colonna sinistra main */
 .sinistra-main {
   text-align: center;
   width: 30%;
 }
+/* Fine Proprietà colonna sinistra main */
 
+/* Proprietà colonna centrale main */
 .centrale-main {
   margin: 0 4.5%;
   text-align: center;
   width: 30%;
 }
+/* Fine Proprietà colonna centrale main */
 
+/* Proprietà colonna destra main */
 .destra-main {
   text-align: center;
   width: 30%;
 }
+/* Fine Proprietà colonna destra main */
 
+/* Proprietà HR divisore main */
 #riga {
   margin: auto;
   width: 95%;
 }
+/* Fine Proprietà HR divisore main */
 
+/* Proprietà parte bassa main */
 .grafico {
   float: left;
   width: 35%;
@@ -196,12 +238,13 @@ div.padrecolonne::after {
 }
 
 #scopri h3{
-  color: grey;
+  font-size: 20px;
+  color: #808080;
   margin-top: 15px;
 }
 
 #scopri p {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 #scopri a {
@@ -209,25 +252,33 @@ div.padrecolonne::after {
   text-decoration: underline;
   font-weight: bold;
 }
+/* Fine Proprietà parte bassa main */
 
+/* Proprietà background Footer */
 #bg-footer {
   background-color: #d3d3d3;
   height: 200px;
 }
+/* Fine Proprietà background Footer */
 
+/* Clearfix Footer */
 div.padrecolonne-footer::after {
   content: "";
   clear: both;
   display: table;
 }
+/* Fine Clearfix Footer */
 
+/* Proprietà colonna sinistra footer */
 #colonnasx-footer {
   float: left;
   width: 20%;
   padding-top: 80px;
   font-size: 22px;
 }
+/* Fine Proprietà colonna sinistra footer */
 
+/* Proprietà colonna centrale footer */
 #colonnadx-footer {
   text-align: right;
   float: right;
@@ -236,7 +287,9 @@ div.padrecolonne-footer::after {
   padding-top: 80px;
   color: #808080;
 }
+/* Fine Proprietà colonna centrale footer */
 
+/* Proprietà colonna destra footer */
 #colonnadx-footer h2 {
   display: inline-block;
   padding-right: 5%;
@@ -245,10 +298,12 @@ div.padrecolonne-footer::after {
 .selettore {
   display: inline-block;
   width: 150px;
-  height: 50px;
+  height: 30px;
   background-color: #d3d3d3;
   color: #808080;
   font-weight: bold;
+  border: none;
+  border-bottom: 1px solid #808080;
 }
 
 .strutturapiano-footer {
@@ -261,3 +316,4 @@ div.padrecolonne-footer::after {
   font-size: 14px;
   color: white;
 }
+/* Fine Proprietà colonna destra footer */
